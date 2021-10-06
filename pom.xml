@@ -150,10 +150,16 @@
                     <relocations>
                         <relocation>
                             <pattern>org.bstats</pattern>
-                            <!-- Replace this with your package! -->
                             <shadedPattern>de.butzlabben.missilewars</shadedPattern>
                         </relocation>
-
+                        <relocation>
+                            <pattern>com.fasterxml</pattern>
+                            <shadedPattern>de.butzlabben.missilewars.fasterxml</shadedPattern>
+                        </relocation>
+                        <relocation>
+                            <pattern>com.pro_crafting</pattern>
+                            <shadedPattern>de.butzlabben.missilewars.pro_crafting</shadedPattern>
+                        </relocation>
                     </relocations>
 
                     <filters>
